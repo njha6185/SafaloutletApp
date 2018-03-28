@@ -7,12 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-import android.widget.Toolbar;
+import android.support.v7.widget.Toolbar;
 
 public class HomeActivity extends AppCompatActivity {
-
-    Button button;
-    Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,9 +17,6 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         change_logo_and_name();
-
-        button = (Button)findViewById(R.id.button_actionbar);
-        button.setText("PRODUCTS");
     }
 
     public void change_logo_and_name()
@@ -33,6 +27,8 @@ public class HomeActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(false);
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        Button button = (Button)findViewById(R.id.button_actionbar);
+        button.setText("PRODUCTS");
     }
 
     public void product_info_page(View v)

@@ -1,4 +1,141 @@
 <resources>
     <string name="app_name">Safal Store</string>
     <string name="app_actionbar_name"><u>SAFAL</u></string>
+    <string name="safal_intro">
+        Safal is engaged in retailing of fresh fruits and vegetables and value added products
+        fruit juices, ketchup, pickles, jams, frozen peas and tomato puree. Of late, Safal introduced un-polished pulses
+        under its own brand. Other products like Mother Dairy’s desi ghee, ice creams, lassi, chhach, mishti doi, paneer
+        and Dhara’s oil range are also available at Safal retail outlets.
+        \nSafal is the largest retail chain of fresh fruits and vegetables in Delhi. At present we are operating about 400
+        retail outlets in Delhi, Noida, Ghaziabad, Faridabad, Gurgaon and 23 retail outlets in Bangalore which cater to
+        more than 1.5 lakh customers per day. We provide around 120 SKUs of fresh fruits and vegetables.
+        Our retail shops are primarily operated by ex-servicemen or their dependents.
+    </string>
+    <string name="frozen_green_peas">
+        Safal Green Peas are Frozen by IQF Technique(Individual Quick Freezing) through a freezing tunnel of fluidized bed,
+        leading to freezing of each and every pea grain individually. In this process, cells do not rupture/damage,
+        preserving the natural nutrition and flavour of the peas. Safal green peas are natural and free from added preservatives
+        or additives.
+        \nWhat’s special about Safal Frozen Range?
+        \n- Processed by IQF techniques to preserve the natural nutrition and flavour of the green peas 
+        \n- Year round availability
+        \nShelf Life - 12 Months
+        \nPack Size - 200 g, 500g, 1 Kg and 5 Kg
+    </string>
+
+    <string name="safal_mixed_vegitable">
+        Safal frozen mixed vegetables are hygienically cleaned and completely natural, keeping them as fresher as
+        vegetables found in local markets. The products gets frozen by using IQF techniques (individual Quick freezing)
+        technique, through a freezing tunnel of fluidized bed, leading to freezing Of each and every grain individually.
+        \nIn this process cells do not rupture/damage, hence preserving the natural nutrition and flavour.
+        \nShelf Life   -  12 Months
+        \nPack Size   -   200 g and 500 g
+    </string>
+
+    <string name="safal_jackfruit">
+        What is Safal Frozen Jackfruit?
+        \nWe all love to eat Jackfruit but hate the hassle that comes with it Safal frozen Jackfruit is tender,
+        sweet and carefully handpicked. The unique freezing process locks its freshness and retains the nutrition.
+        \nJust cut open a pack today and say goodbye to sticky hands.
+        \nShelf life    -  12 Months
+        \nPack Size   -  300 g
+    </string>
+
+    <string name="safal_frozen_corn">
+        Safal frozen corn is hygienically cleaned and completely natural, keeping them as fresher as fresh corn found
+        in local markets. The corn kernels gets frozen using IQF (Individual Quick Freezing) technique , through a freezing
+        tunnel of fluidized bed, leading to freezing of each kernel individually. In this process cells do not rupture/damage,
+        hence preserving the nutrition and flavor.
+        \nShelf Life  -  12 Months
+        \nPack Size  -  200 g, 500 g and 1 Kg
+    </string>
+
+    <string name="safal_aloo_tikki">
+        Made from the choicest of potatoes from the best of farms, Safal Aloo Tikki Brings you freshness and taste 
+        like never before. An all time favourite snack for all age groups, it will brighten up any party and make a 
+        perfect picnic snack too.
+        \nWhat’s special about Safal Frozen Range?
+        \n- Traditional Indian easy to cook
+        \n- Hygienic Preparation untouched by hand
+        \n- Doesn’t Break/ Crack on Frying
+        \n- Consistent and Quality
+    </string>
+
+    <string name="safal_hara_kebab">
+        Made from the choicest potatoes from the best of Farms, Safal Hara Bhara Kebab brings you never before
+        Freshness and taste. Open the pack, fry them and within minutes these crispy and delicious Safal Hara Bhara
+        Kebab are ready to be served. Be it your children or guests Safal Hara Bhara Kebab are always a delicious favourite.
+    </string>
+
+    <string name="safal_tomato">
+        Good thing comes in small packages’ – a perfect description for 200 g pack Safal tomato puree.
+        Made from choicest of tomatoes from the finest of farms, Safal tomato puree brings you the nature’s goodness
+        like never before to liven up your curries, soups, gravies, pizza dressings, etc. with no added color flavor or
+        preservatives, it gives you same taste and feeling of natural tomatoes without putting the efforts in handpicking and
+        fine chopping the same.
+        \nWhat’s Special about Safal product?
+        \n- Made from Fresh Chosen Red Tomatoes from farm
+        \nShelf Life  -  12 Months
+        \nPack Size  -  200 g
+    </string>
+
+    <string name="safal_pulses">
+        Introduce yourself to healthy food with the all new range of Safal unpolished pulses, which are free from 
+        any artificial color and adulteration. Unpolished pulses are pure pulses which are healthier and tastier 
+        and rich in natural protein.
+        \nWhat’s Special about Safal pulses?
+        \n- Unpolished
+        \n- Two stage cleaning
+        \n- Hygienically sorted and graded to maintain purity
+        \nShelf Life - 6 Months
+        \nPack Size - 500 g and 1 Kg
+    </string>
+
+    <string name="safal_fruits">
+        Safal Fal. Surakshit Fal.
+        \nFruits are nature’s wonderful medicines packed with vitamins, minerals, anti-oxidants. They are absolute feast
+        to our sight, not just because of their color and flavor but also help in keeping body fit and healthy!
+    </string>
+
+    <string name="safal_veg">
+        Safal Fresh Vegetables
+        \nThe entire procurement network is spread over 20 states including North East, comprising nearly 8000
+        farmer members from 93 Safal growers associations.
+    </string>
+
+    <string name="safal_honey">
+        Extracted From Naturally sealed honey combs, Safal Honey is 100% natural.
+        Naturally Sealed honey combs are filled with honey and then sealed by bees themselves. The honey is extracted by the
+        professionals to give you the taste of pure and 100% natural honey 
+        \nWhat’s Special….
+        \nExtracted by experts from Naturally sealed honey combs Qualifies FSSAI, CODEX, European
+        Union Standard for its Quality and Composition
+        \nShelf Life - 12 Months
+        \nPack Size - 250 g and 500 g
+    </string>
+
+    <string name="safal_onion">
+        Safal Easy Onions or dehydrated onions offered by us are obtained by drying or dehydrating red onions.
+        Easy Onions are used in preparations of soups, sauces, food preparations, vegetable, stuffing mixes, fast foods etc. 
+        Non-fried, dehydrated onion flakes that enhances your cooking experience while keeping the taste of freshly chopped
+        onions intact.
+        \nLess effort of cutting, chopping, etc.
+        \nNo tears in eyes
+        \nLess time
+        \nUses Less Oil
+        \nEasy to store
+        \nConsistent quality
+        \nFree from price fluctuations
+        \n30 grams = 300 grams of fresh onions
+        \nShelf Life  -  12 Months
+        \nPack Size -  30 g and 120 g
+    </string>
+
+    <string name="safal_besan">
+        Freshly ground, Safal Besan is processed from pure and best quality of chana. It is used to pan out delicious
+        Halwas and many savouries and snacks.
+        \nShelf Life  - 3 Months
+        \nPack Size - 500 g and 1 Kg
+    </string>
+
 </resources>

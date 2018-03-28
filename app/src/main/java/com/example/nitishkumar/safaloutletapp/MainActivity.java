@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
 
     ViewPager viewPager;
     CustomSwipeAdapter adapter;
-    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         change_logo_and_name();
-        button = (Button)findViewById(R.id.button_actionbar);
-        button.setText("PRODUCTS");
 
         viewPager = (ViewPager)findViewById(R.id.view_pager);
         adapter = new CustomSwipeAdapter(this);
@@ -38,12 +35,11 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(false);
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        Button button = (Button)findViewById(R.id.button_actionbar);
+        button.setText("HOME");
     }
     public void product_info_page(View v)
     {
-        Button button = (Button)findViewById(R.id.button_actionbar);
-        button.setText("PRODUCTS");
-
         Toast.makeText(MainActivity.this, "Home Page", Toast.LENGTH_LONG).show();
         Intent intent = new Intent(MainActivity.this, HomeActivity.class);
         startActivity(intent);

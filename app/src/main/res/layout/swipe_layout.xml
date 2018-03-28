@@ -1,23 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:weightSum="2">
+    android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/image_view"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#502900"
+            android:src="@drawable/safal_logo"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/bg4"
+            android:scrollbars="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/text_define"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:textColor="#2fffff"
+                android:text="@string/safal_intro"/>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/heading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT SAFAL"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:background="#502900"
         android:layout_alignParentTop="true"
-        android:layout_margin="10dp"
-        android:src="@drawable/safal_logo"
-        android:layout_marginTop="25dp"/>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#2fffff" />
 
-</LinearLayout>
+
+</RelativeLayout>
