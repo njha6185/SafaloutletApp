@@ -24,7 +24,7 @@
             android:text=""
             android:textColor="#0faaaf"
             android:textSize="20dp"
-            android:textStyle="bold"
-            android:onClick="product_info_page"/>
+            android:textStyle="bold"/>
+            <!--android:onClick="product_info_page"/>-->
     </RelativeLayout>
 </android.support.v7.widget.Toolbar>

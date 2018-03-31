@@ -27,15 +27,15 @@ public class HomeActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(false);
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
-        Button button = (Button)findViewById(R.id.button_actionbar);
-        button.setText("PRODUCTS");
+//        Button button = (Button)findViewById(R.id.button_actionbar);
+//        button.setText("PRODUCTS");
     }
 
-    public void product_info_page(View v)
-    {
-        Toast.makeText(HomeActivity.this, "Product Information", Toast.LENGTH_LONG).show();
-        Intent intent = new Intent(HomeActivity.this, MainActivity.class);
-        startActivity(intent);
-        finish();
-    }
+//    public void product_info_page(View v)
+//    {
+//        Toast.makeText(HomeActivity.this, "Product Information", Toast.LENGTH_LONG).show();
+//        Intent intent = new Intent(HomeActivity.this, MainActivity.class);
+//        startActivity(intent);
+//        finish();
+//    }
 }
